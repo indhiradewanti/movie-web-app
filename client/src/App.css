@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button.grad {
+  background-color: #cac8b8;
+  background-image: linear-gradient(315deg, #dad9b9 0%, #b0b17e 74%);
+  box-shadow: 0 0 0 0 #beac9b, 0.2rem 0.2rem 30px #69665e;
+}
+button.grad:hover {
+  box-shadow: 0 0 0 0 #757167, 0.2rem 0.2rem 60px #7c735e;
+}
+
+.bg-brown {
+  --tw-bg-opacity: 1;
+  background-color: #b4ad9e;
+}
+.hover\:bg-brown:hover {
+  background-color: #999999;
+}
+
+.bg-nude {
+  --tw-bg-opacity: 1;
+  background-color: #fffed5 ;
+}
+
+.bg-nude1 {
+  --tw-bg-opacity: 1;
+  background-color: #b3a075 ;
+}
+
+@font-face {
+  font-family: 'cigra';
+  src: url('./assets/fonts/Cigra Free Demo.ttf');
+}
+
+.cigra {
+  font-family: 'cigra';
+  color: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: 'she';
+  src: url('./assets/fonts/GyahegiPersonalUse-w1P6z.ttf');
+}
+
+.she {
+  font-family: 'she';
+  color: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: 'txt';
+  src: url('./assets/fonts/Vogue.ttf');
+}
+
+.txt {
+  font-family: 'txt';
+  color: rgb(77, 77, 77);
+}
+
+@font-face {
+  font-family: 'ttt';
+  src: url('./assets/fonts/Vogue.ttf');
+}
+
+.ttt {
+  font-family: 'ttt';
+  color: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: 'meg';
+  src: url('./assets/fonts/Magazine.ttf');
+}
+
+.meg {
+  font-family: 'meg';
+  color: rgb(77, 77, 77);
+}
+
+@font-face {
+  font-family: 'onto';
+  src: url('./assets/fonts/Queenstown Signature.ttf');
+}
+
+.onto {
+  font-family: 'onto';
+  color: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: 'caslon';
+  src: url('./assets/fonts/CaslonCP.otf');
+}
+
+.caslon {
+  font-family: 'caslon';
+  color: rgb(0, 0, 0);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-color: #b3a075;
+  --tw-text-opacity: 1;
+  color: hsla(var(--bc)/var(--tw-text-opacity,1));
+}
+
+.btn-outline:hover {
+  --tw-bg-opacity: 1;
+  background-color: #94886d;
+  --tw-border-opacity: 1;
+  border-color: #b3a075;
+  --tw-text-opacity: 1;
+  color: hsla(var(--b1)/var(--tw-text-opacity,1));
+}
+
+.btn-outline1 {
+  background-color: whitesmoke;
+  border-color: #b3a075;
+  --tw-text-opacity: 1;
+  color: hsla(var(--bc)/var(--tw-text-opacity,1));
+}
+
+.btn-outline1:hover {
+  --tw-bg-opacity: 1;
+  background-color: #94886d;
+  --tw-border-opacity: 1;
+  border-color: #b3a075;
+  --tw-text-opacity: 1;
+  color: hsla(var(--b1)/var(--tw-text-opacity,1));
+}
+
